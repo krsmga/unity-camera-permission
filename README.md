@@ -1,4 +1,4 @@
-# Camera-Permission
+# Camera Permission
 
 This script was developed to facilitate the implementation of the code that requests permission to use the camera on Android and iOS devices, in applications developed with Unity.
 
@@ -15,5 +15,9 @@ This script was developed to facilitate the implementation of the code that requ
 4. The **On Not Authorized (Boolean)** event returns **false** and allows you to enter any method that will be executed after the user denies access to the camera. ***(Optional)***
 
 Regardless of the use of the script parameters, it will request permission from the application's camera.
+
+**For Android devices**
+
+It is possible to create a button that calls the Start () method to request again if the user has denied it the first time. That way he doesn't need to access the device's settings to change the permission. This does not work on iOS.
 
 
