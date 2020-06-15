@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
-
-// For compile Android devices
+<summary>
+`// For compile Android devices
+</summary>
 #if UNITY_ANDROID
 using UnityEngine.Android;
 #endif
