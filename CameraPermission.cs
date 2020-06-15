@@ -3,19 +3,21 @@ using System.Collections;
 using UnityEngine.Events;
 using TMPro;
 
+// For compile Android devices
 #if UNITY_ANDROID
 using UnityEngine.Android;
 #endif
 
+// For compile iOS devices
 #if UNITY_IOS
 using UnityEngine.iOS;
 #endif
 
 public class PermissionStates
 {
-    public const int DEFAULT = 0;
-    public const int NOT_AUTHORIZED = 1;
-    public const int AUTHORIZED = 2;
+    public const int DEFAULT = 0;       // Never been asked
+    public const int NOT_AUTHORIZED = 1;// Not authorized by the user
+    public const int AUTHORIZED = 2;    // Authorized by user
 }
 
 public class CameraPermission : MonoBehaviour
