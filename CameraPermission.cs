@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
-using TMPro;
 
 // For compile Android devices
 #if UNITY_ANDROID
