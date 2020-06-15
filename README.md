@@ -6,7 +6,7 @@ This script was developed to facilitate the implementation of the code that requ
 ![](../master/Inspector.png)
 
 ## Steps for use
-1. Attach **`CameraPermission.cs`** to MainCamera
+1. Attach **`CameraPermission.cs`** to the **MainCamera** object of the Scene that starts the application.
 
 2. The **`Text Not Authorized IOS`** and **`Text Not Authorized Android`** parameters can be used to attach **GameObjects** or **Prefabs** with graphics or text to inform the user of the need to allow access to the camera.
 
