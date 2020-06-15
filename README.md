@@ -18,6 +18,6 @@ Regardless of the use of the script parameters, it will request permission from 
 
 **For Android devices**
 
-It is possible to create a button that calls the Start () method to request again if the user has denied it the first time. That way he doesn't need to access the device's settings to change the permission. This does not work on iOS.
+It is possible to create a **Button** that calls the **`Start()`** method to request again if the user has denied it the first time. That way he doesn't need to access the device's settings to change the permission. This does not work on iOS.
 
 
