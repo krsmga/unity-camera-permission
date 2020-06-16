@@ -1,4 +1,13 @@
-﻿using UnityEngine;
+﻿/**
+ * @author Kleber Ribeiro da Silva
+ * @email krsmga@gmail.com
+ * @create date 2020-05-16 19:42:04
+ * @modify date 2020-06-16 19:15:33
+ * @github https://github.com/krsmga/Camera-Permission
+ */
+
+ 
+using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
 
