@@ -6,7 +6,6 @@
  * @github https://github.com/krsmga/Camera-Permission
  */
 
- 
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
